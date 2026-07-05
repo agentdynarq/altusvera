@@ -1,0 +1,15 @@
+# Internal build notes (reference the source template — do not publish)
+ALTUS-VERA-BUILD-BRIEF.md
+
+# Local working backups
+index_custom_backup.html
+css/style_custom_backup.css
+
+# Framer export artifacts
+images/*.png.html
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
