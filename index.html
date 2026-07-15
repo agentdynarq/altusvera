@@ -6,6 +6,15 @@
   <!-- TEMP: keep the design-review build out of search while it carries
        placeholder testimonials/partners. Remove before public launch. -->
   <meta name="robots" content="noindex, nofollow">
+
+  <!-- In-page security fallbacks: real HTTP headers live in public/_headers
+       (Cloudflare Pages). These meta equivalents also protect the copy served
+       through raw.githack, which cannot send custom headers. XFO, HSTS,
+       X-Content-Type-Options and Permissions-Policy have no meta form —
+       those need the real headers; framing is mitigated in main.jsx. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formsubmit.co https://altusvera.pages.dev; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
   <title>Altus Vera | AI-Enabled Transformation Partner</title>
   <meta name="description" content="Altus Vera partners with enterprises, institutions, and growth-stage organizations to design, build, and scale AI-enabled technology, combining senior industry delivery expertise with academic research depth.">
 
@@ -32,8 +41,8 @@
 
   <link rel="preload" href="/agentdynarq/altusvera/main/fonts/3y9U6as8bTXq_nANBjzKo3IeZx8z6up5BeSl5jBNz_19PpbpMXuECpwUxJBOm_OJWiaaD30YfKfjZZoLvfzlyMgvs-wJDtw.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/agentdynarq/altusvera/main/fonts/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2" as="font" type="font/woff2" crossorigin>
-  <script type="module" crossorigin src="/agentdynarq/altusvera/main/assets/index-m2Tdn6Oj.js"></script>
-  <link rel="stylesheet" crossorigin href="/agentdynarq/altusvera/main/assets/index-szIMC2LK.css">
+  <script type="module" crossorigin src="/agentdynarq/altusvera/main/assets/index-DS6zIvtm.js"></script>
+  <link rel="stylesheet" crossorigin href="/agentdynarq/altusvera/main/assets/index-CL5w0lwz.css">
 </head>
 <body>
   <div id="root"></div>
